@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
+//movememnet and destruction 
 public class hero : MonoBehaviour
 {
    // the shot
@@ -94,7 +94,7 @@ public class hero : MonoBehaviour
     }
 }
 
-        // shou by cliking the mouse ,waittoshoot recaled 
+        // shoot teh enemy by clicking mouse 
     IEnumerator shotReset()
     {
         yield return new WaitForSeconds(.5f);
